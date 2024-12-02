@@ -1,0 +1,5 @@
+
+Exercise 09: 找出在工作目錄上一層開始往下所有的.py 檔 (含子目錄)
+Find all .py files under the current working folder and its subfolders
+
+Hint: You may use os.walk() or glob.glob(..., recursive=True)

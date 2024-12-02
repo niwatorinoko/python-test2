@@ -1,0 +1,12 @@
+Python: 3
+西洋史 : 2     
+ Calculus:   3
+ 會計: 3
+ Management   : 3
+ Biology :   3
+ Data Structures:  3
+ Data Base : 3
+    Data Mining: 3  
+ 專題實習:  3  
+ Algorithms:  3  
+Data Networks:3

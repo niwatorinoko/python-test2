@@ -1,0 +1,65 @@
+
+
+Exercise 06_1 (Textbook 11-34， Q4)
+
+樂透包牌: 從 10個數字 4, 6, 7, 8, 11, 24, 35, 37, 40, 48 取6個數字。 
+找出所有的組合 （共 210組），並顯示數字組合最大的最後5個組合。
+
+Find all the 6-number Lottery combinations from the given set of 10 numbers: 4, 6, 7, 8, 11, 24, 35, 37, 40, and 48. 
+There are a total of 210 combinations. Show the last 5 combinations with the highest numerical values:
+
+exampe：
+206: (8, 11, 24, 35, 40, 48)
+207: (8, 11, 24, 37, 40, 48)
+208: (8, 11, 35, 37, 40, 48)
+209: (8, 24, 35, 37, 40, 48)
+210: (11, 24, 35, 37, 40, 48)
+
+---------------------------------------------------------------------------------------
+Exercise 06_2 (textbook 11-33， Q3)
+
+使用 datetime 模組顯示下一星期的日曆， 執行範例如下：
+（假設 Mon 是第一天）
+
+Use datetime module to find next week's calendar as follows:
+(assume Monday is the fisrday of a week)
+
+2024-04-29 (Mon)
+2024-04-30 (Tue)
+2024-05-01 (Wed)
+2024-05-02 (Thu)
+2024-05-03 (Fri)
+2024-05-04 (Sat)
+2024-05-05 (Sun)
+
+
+---------------------------------------------------------------------------------------
+Exercise 06_3: 寫一個程式， 分別匯入週期表檔案 periodic_table.txt 和 periodic_table.csv,
+ (a) 找出週期表內的固態 (Phase = 'solid')元素。 輸出時， 先按是否有放射性(Radioactive)， 
+再依是否為金屬 (Metal) 遞減排序。
+ (b) 檢查從 periodic_table.txt 和 periodic_table.csv 匯入的元素週期表 dicts 是否完全相同。
+
+Read the files `periodic_table.txt` and `periodic_table.csv` individually, 
+ (a)  Find the solid elements in the periodic table. When outputting the results, sort them 
+      first by radioactivity based on the `Radioactive` property, and then by the `Metal` property 
+      in descending order.
+
+ (b)  Assert the all elements periodic table dicts you created are the same
+ 
+Sample output:
+
+87 Fr yes yes
+88 Ra yes yes
+89 Ac yes yes
+90 Th yes yes
+91 Pa yes yes
+92 U  yes yes
+84 Po yes
+85 At yes
+ 3 Li     yes
+ 4 Be     yes
+11 Na     yes
+...
+...
+...
+---------------------------------------------------------------------------------------

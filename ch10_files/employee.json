@@ -1,0 +1,16 @@
+{  
+    "employee": [
+    {  
+        "name": "Charlie",   
+        "salary": 3200,   
+        "married": true,
+        "address": "Imaginary Street 149"  
+    }, 
+    {  
+        "name": "Jack",   
+        "salary": 3600,   
+        "married": true,
+        "address": "Sleepy Street 256"  
+    }
+    ] 
+}  

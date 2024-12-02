@@ -1,0 +1,20 @@
+1.  請在目前工作目錄下 （建議你自建幾個新檔案...)
+
+(1) 找出在 48 小時內有改變過的檔案 (不含資料夾) (10%) 
+(2) 改變過的檔案依時間先後遞增排序 (10%)
+
+Under your current working directory (You  may create a few new files):
+
+(1) Identify files that have been modified within the last 48 hours (excluding folders).
+(2) Sort the modified files in ascending order based on their modification time.
+
+
+輸出範例 Example output:
+
+Starting Time: 2024-04-27 14:57:24.491199
+Current  Time: 2024-04-29 14:57:24.491199
+
+ex07_recent_changes.py           2024-04-29 14:41:19.912682
+ex08.txt                         2024-04-29 14:50:17.964773
+ex08_ch11_zh_word_count.py       2024-04-29 14:57:02.797087
+ex07_recent_changes.txt          2024-04-29 14:57:19.167898
