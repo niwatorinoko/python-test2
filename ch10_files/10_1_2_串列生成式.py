@@ -9,10 +9,16 @@ path = "c:\\"   # 絕對路徑
 # os.path.isfile(f)
 
 # os.listdir(path): list files relative to the provided path
-files = [f for f in os.listdir(path) if os.path.isfile(f)]
+
+# files = [f for f in os.listdir(path) if os.path.isfile(f)]
+files = [f for f in os.listdir(path) if os.path.isfile(os.path.join(path, f))]
            #if os.path.isfile(os.path.join(path, f))]
-dirs  = [d for d in os.listdir(path) if os.path.isdir(d) ]
+
+# dirs  = [d for d in os.listdir(path) if os.path.isdir(d) ]
+dirs  = [d for d in os.listdir(path) if os.path.isdir(os.path.join(path, d))]
            # if os.path.isdir(os.path.join(path, d))]
+
+
 
 print(files)
 print(dirs)
