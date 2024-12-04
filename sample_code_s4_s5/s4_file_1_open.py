@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 """
 file open
-"r" - Read - Default value.
-"t" - Text - Default value. Text mode
-"b" - Binary - Binary mode (e.g. images)
-"a" - Append - Opens a file for appending, creates the file if it does not exist
-"w" - Write - Opens a file for writing, creates the file if it does not exist
-"x" - Create - Creates the specified file, returns an error if the file exists
+"r" - Read - デフォルトモード。読み取り専用
+"t" - Text - デフォルトモード。テキストモード
+"b" - Binary - バイナリモード（例: 画像）
+"a" - Append - 追記モード。存在しない場合は新規作成
+"w" - Write - 書き込みモード。存在しない場合は新規作成
+"x" - Create - 新規作成モード。ファイルが既に存在する場合はエラー
 """
 
 # file_object  = open("filename", "mode")

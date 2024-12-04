@@ -3,6 +3,7 @@ import os
 
 n = 2
 now = datetime.now()
+#timedelta(hours=n) n hours before
 n_days_before = now - timedelta(days=n)
 
 # Find files under current directory  
